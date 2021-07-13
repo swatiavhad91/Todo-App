@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -12,7 +12,69 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+table{
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 23%;
+}
+table,td,th{
+  border: solid 2px black;
+  border-collapse: collapse;
+}
+th{
+  
+  background-color:cyan;
+  font-size: large;
+  text-align: center;
+  height: 7%;
+  padding: 1%;
+  
+}
+td{
+  background-color: skyblue;
+  text-align: center;
+  height: 5%;
+}
+h3{
+  text-align: center;
+  background-color: violet;
+  font-weight: bolder;
+  width: 30%;
+  margin-left: 35%;
+}
+form{
+  width: 60%;
+  margin-left: 20%;
+  background-color: sandybrown;
+  padding: 2%;
+}
+#seatno{
+  margin-left: 6%;
+}
+#prn{
+  margin-left: 9%;
+}
+#m1{
+  margin-left: 6.5%;
+}
+#m2{
+  margin-left: 6%;
+}
+#m3{
+  margin-left: 1.5%;
+}
+#m4{
+  margin-left: 6.5%;
+}
+#m5{
+  margin-left: 1%;
+}
+#btn{
+  margin-left: 40%;
+  height: 18%;
+  width: 20%;
+  font-weight: bolder;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +85,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
