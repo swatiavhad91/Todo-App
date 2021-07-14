@@ -11,7 +11,7 @@ class Form extends React.Component {
           <label For="studname">
           <b>Student Name : </b> 
           <input required id="studname" value={this.props.newstudname} 
-            type="text"  name="studname" pattern="[A-Za-z]+" title="Student Name must be character only.. It can not contain
+            type="text"   name="studname" pattern="[A-Za-z]+" title="Student Name must be character only.. It can not contain
             numbers or symbols.."
             onChange={this.props.handleInputChange} /><i>(Student Name must be characters only..)</i>
           </label><br></br><br></br>
@@ -21,7 +21,7 @@ class Form extends React.Component {
           <b> Seat No : </b> 
           <input required id="seatno" value={this.props.newseatno} 
             type="text" name="seatno" pattern="^[A-Za-z0-9-_\s]+$" title="Seat no can be combination of characters and decimal numbers only.."
-            onChange={this.props.handleInputChange} /><i>(Seat no must be combination of character and decimal no..)</i>
+            onChange={this.props.handleInputChange} /><i>(Seat no can be combination of character and decimal no..)</i>
 
            
           </label><br></br><br></br>

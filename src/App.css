@@ -13,9 +13,10 @@
   }
 }
 table{
-  width: 60%;
-  margin-top: 3%;
-  margin-left: 23%;
+  width: 80%;
+  margin-top: 1.5%;
+  margin-left: 12%;
+  margin-bottom: 10%;
 }
 table,td,th{
   border: solid 2px black;
@@ -26,7 +27,7 @@ th{
   background-color:cyan;
   font-size: large;
   text-align: center;
-  height: 7%;
+  height: 2%;
   padding: 1%;
   
 }

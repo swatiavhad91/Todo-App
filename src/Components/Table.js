@@ -34,8 +34,10 @@ class Table extends React.Component {
                   <td>{item.m3}</td>
                   <td>{item.m4}</td>
                   <td>{item.m5}</td>
-                   <td>{item.m1 + item.m2 + item.m3 + item.m4 + item.m5}</td>
-                  <td>{(item.m1 + item.m2 + item.m3 + item.m4 + item.m5)*500/100}</td>  
+                   <td>{parseFloat(item.m1) + parseFloat(item.m2) + parseFloat(item.m3) + parseFloat(item.m4)
+                    + parseFloat(item.m5)}</td>
+                  <td>{(((parseFloat(item.m1) + parseFloat(item.m2) + parseFloat(item.m3) + parseFloat(item.m4)
+                    + parseFloat(item.m5))/500)*100) }%</td>  
                   
                 </tr>
               );
